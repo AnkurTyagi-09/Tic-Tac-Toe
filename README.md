@@ -1,72 +1,83 @@
-#🎮 Tic-Tac-Toe Game (Python CLI)
+# 🎮 Tic-Tac-Toe Game (Python CLI)
 
-A classic Tic-Tac-Toe game built in Python with two modes:
+A classic **Tic-Tac-Toe** game built in Python with two modes:
 
-🢑 Two Player Mode
+- 🢑 Two Player Mode
+- 🤖 Single Player Mode with AI (Minimax Algorithm)
 
-🤖 Single Player Mode with AI (Minimax Algorithm)
+---
 
-💠 Features
+## 💠 Features
 
-Interactive command-line interface
+- Interactive **command-line interface**
+- Smart **AI opponent** using the **Minimax** algorithm
+- **Two-player support** (locally)
+- Clean and readable board display
+- Input validation with proper prompts and error handling
 
-Smart AI opponent using the Minimax algorithm
+---
 
-Two-player support (locally)
+## 🧠 AI Logic
 
-Clean and readable board display
+The AI uses the **Minimax algorithm** to play optimally:
 
-Input validation with proper prompts and error handling
+- It tries to **maximize its score** and **minimize the opponent's**.
+- It will never lose if played perfectly.
 
-🧠 AI Logic
+---
 
-The AI uses the Minimax algorithm to play optimally:
+## 🚀 How to Run
 
-It tries to maximize its score and minimize the opponent's.
+1. Clone this repository or download the `.py` file.
 
-It will never lose if played perfectly.
+2. Run the file in a terminal:
 
-🚀 How to Run
+   ```bash
+   python "Tic- Tac- Toe game .py"
+   ```
 
-Clone this repository or download the .py file.
+3. Choose a game mode:
 
-Run the file in a terminal:
+   - `1` for Single Player (you vs AI)
+   - `2` for Two Player (local multiplayer)
 
-python "Tic- Tac- Toe game .py"
+---
 
-Choose a game mode:
+## 🄹 Controls
 
-1 for Single Player (you vs AI)
+- Input a number between **1-9** to place your move on the grid:
 
-2 for Two Player (local multiplayer)
-
-🄹 Controls
-
-Input a number between 1-9 to place your move on the grid:
-
+```
 1 | 2 | 3
 --+---+--
 4 | 5 | 6
 --+---+--
 7 | 8 | 9
+```
 
-📁 File Structure
+---
 
+## 📁 File Structure
+
+```
 Tic-Tac-Toe/
 ├── Tic- Tac- Toe game .py
 └── README.md
+```
 
-🤝 Contributions
+---
+
+## 🤝 Contributions
 
 This is a simple beginner-friendly project. Feel free to fork and:
 
-Add a GUI using Tkinter or Pygame
+- Add a GUI using Tkinter or Pygame
+- Add score tracking
+- Improve the board UI
 
-Add score tracking
+---
 
-Improve the board UI
-
-📜 License
+## 📜 License
 
 This project is open-source and free to use for learning or improvements.
 
